@@ -9,15 +9,8 @@ public class A {
  }
 
  public String process(String prefix) {
+
      String updated = prefix + "H";
      return next.process(updated);
  }
 }
-
-
-
-
-//מחלקה C
-
-
-
